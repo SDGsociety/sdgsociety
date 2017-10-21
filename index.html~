@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SDG Society</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+    <style type="text/css">
+
+        .logo{
+            display: block;
+        }   
+
+        /*Original Size*/
+        .logo img {
+          max-height: 100px;
+        }
+
+
+        /*On Scroll Size*/
+        #mainNav.smaller {
+            height: 65px;
+        }
+        #mainNav.smaller .logo img {
+          transform: scale(0.75);
+        }
+
+        .logo img {
+            transition: .7s all;
+            -moz-transition: .7s all;
+            -webkit-transition: .7s all;
+            -o-transition: .7s all;
+        }
+
+    </style>
+
+</head>
+
+<body id="page-top" class="index">
+
+   <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="logo" href="index.php">
+                     <img class="img-responsive" src="img/logo_1.png">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="action.html">Action</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="campaign.html">Campaign</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="getinvolved.html">Get Involved</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">The SDG Times</a>
+                    </li>
+                    <li>
+                     <button type="submit" class="btn btn-xl" style="background-color:#40E0D0;border-color:#40E0D0;"><a href="#" style="color:#fff;text-decoration: none;">Support Us</a></button>
+                        <!-- <button type="submit" class="btn btn-5" ><a href="#" style="color:#000;text-decoration: none;">Support Us</a></button> -->
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+                <li data-target="#mycarousel" data-slide-to="3"></li>
+                <li data-target="#mycarousel" data-slide-to="4"></li>
+            </ol>
+
+        <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item">
+                        <img src="img/slider/image1.jpg" data-color="lightblue" alt="First Image">
+                        <div class="carousel-caption">
+                            <h3>First Image</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/image2.jpg" data-color="firebrick" alt="Second Image">
+                        <div class="carousel-caption">
+                            <h3>Second Image</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/image3.jpg" data-color="violet" alt="Third Image">
+                        <div class="carousel-caption">
+                            <h3>Third Image</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/image4.jpg" data-color="lightgreen" alt="Fourth Image">
+                        <div class="carousel-caption">
+                            <h3>Fourth Image</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/image5.jpg" data-color="tomato" alt="Fifth Image">
+                        <div class="carousel-caption">
+                            <h3>Fifth Image</h3>
+                        </div>
+                    </div>
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+        </div>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" >
+        <div class="container">
+            <div class="row">
+               <!--Heading-->
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#" >
+                        <img src="img/portfolio/SDG4.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Quality Education</h4>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#">
+                        <img src="img/portfolio/SDG5.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Gender Equality</h4>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#">
+                        <img src="img/portfolio/SDG13.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Climate Action</h4>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#">
+                        <img src="img/portfolio/SDG17.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Partnerships for the goals</h4>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2 class="section-heading" style="color: #40E0D0; font-size: 70px">About</h2>
+                    <h2>SDG Society</h2>
+                </div>
+                <div class="col-sm-8">
+                    <h3 class="section-subheading text-muted" style="color: #000">The SDG Society project, partially funded by the U.S. Department of State as a part of the Youth Exchange and Study (YES) Alumni Grants, and supported by American Councils for International Education  and AFS India, focuses on raising the awareness among school children regarding the Sustainable Development Goals (SDGs) which are spearheaded by the United Nations. As a part of our long term strategy, we are looking towards creating a culture of youth engagement in developmental work in schools across the nation, in order to fulfill India's commitment to Global Goals for Sustainable Development.</h3>
+                </div>
+                  <div class="col-lg-12 text-center">
+                    <div id="success"></div>
+                        <button type="submit" class="btn btn-xl" style="background-color:#40E0D0;border-color:#40E0D0;"><a href="#" style="color:#fff;">Read more</a></button>
+             </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <h2 class="section-subheading text-center">Birds of same feather flock together</h2>
+                    <center><p class="large text-muted">Do you feel that you belong here too?</p></center>
+                    <h2 class="section-heading text-center" style="font-size: 60px; color: #40E0D0">Join the team</h2>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Join our team of SDG enthusiasts who wake up to create a better world
+                    every day.</p>
+                </div>
+            </div>
+              <div class="col-lg-12 text-center">
+                    <div id="success"></div>
+                        <button type="submit" class="btn btn-xl" style="background-color:#40E0D0;border-color:#40E0D0;"><a href="#" style="color:#fff;">Read more</a></button>
+             </div>
+        </div>
+    </section>
+
+       <!--campaign section-->
+     <section id="campaign">
+      <div class="container">
+            <div class="row">
+               <!--Heading-->
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="image">
+                        <img src="img/become/b5.png" class="img-responsive" alt="">
+                        <h2 style="position: absolute;top: 30px; left: 0; width: 100%; text-align: center;"><span style="font-size: 80px">30</span><br /><br><span style="font-size: 30px">Institutions<br> </span><span style="font-size: 20px">(Schools & colleges)</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="image">
+                        <img src="img/become/b.jpg" class="img-responsive" alt="">
+                        <h2 style="position: absolute;top: 30px; left: 0; width: 100%; text-align: center;"><span style="font-size: 80px">50</span><br /><br><span style="font-size: 30px">Sessions </span><br><span style="font-size: 20px"> (workshops & training)</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                     <div class="image">
+                        <img src="img/become/b3.png" class="img-responsive" alt="">
+                         <h2 style="position: absolute;top: 30px; left: 0; width: 100%; text-align: center;"><span style="font-size: 80px">12k</span><br><br><span style="font-size: 30px">Youths</span> <br><span style="font-size: 20px">(Participated & trained)</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                   <div class="image">
+                        <img src="img/become/b4.jpg" class="img-responsive" alt="">
+                        <h2 style="position: absolute;top: 30px; left: 20px; width: 100%; text-align: left;">
+                        <span style="background: rgba(0, 0, 0, 0.7);">100</span><span>Individual Actions</span><br>
+                        <span style="background: rgba(0, 0, 0, 0.7);">20</span><span>Team Actions</span><br>
+                        <span style="background: rgba(0, 0, 0, 0.7);">5</span><span>Campus SDG society</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span style="background: rgba(0, 0, 0, 0.7);">75</span><span>SDG campaigners</span><br></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Get Involved Section -->
+    <section id="get">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <h2 class="section-subheading text-center">Be the Change you want to see</h2>
+                    <center><p class="large text-muted">Feel you should be the class, rather than just sitting at your home and
+                    reading this?</p></center>
+                    <h2 class="section-heading text-center" style="font-size: 60px; color: #40E0D0">Host a session</h2>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">You can be the one, who spread the flame of SDGs in schools across
+                    your neighbourhood.</p>
+                </div>
+            </div>
+              <div class="col-lg-12 text-center">
+                    <div id="success"></div>
+                        <button type="submit" class="btn btn-xl" style="background-color:#40E0D0;border-color:#40E0D0;"><a href="getinvolved.php" style="color:#fff;">Read more</a></button>
+             </div>
+        </div>
+    </section>
+
+     <!--SDG section-->
+    <section id="sdg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading" style="color: #fff"> The Sustainable Development Goals</h3><br><br>
+                </div>
+                 <br><br>
+                 <div class="col-sm-1"></div>
+                 <div class="col-sm-10">
+                                    <div class="sdg-square-wrapper">
+
+                                        <div class="sdg-0 sdg-square">
+                                            <img src="img/sdg/sdg_0.png" alt="UNLEASH">
+                                        </div>
+
+                                        <div class="sdg-1 sdg-square">
+                                            <img src="img/sdg/sdg_1.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">End poverty in all its forms everywhere</div>
+                                        </div>
+
+                                        <div class="sdg-2 sdg-square">
+                                            <img src="img/sdg/sdg_2.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">End hunger, achieve food security and improved nutrition and promote sustainable agriculture</div>
+                                        </div>      
+
+                                        <div class="sdg-3 sdg-square">
+                                            <img src="img/sdg/sdg_3.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Ensure healthy lives and promote well-being for all at all ages</div>
+                                        </div>
+
+                                        <div class="sdg-4 sdg-square">
+                                            <img src="img/sdg/sdg_4.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all</div>
+                                        </div>
+
+                                        <div class="sdg-5 sdg-square">
+                                            <img src="img/sdg/sdg_5.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Achieve gender equality and empower all women and girls</div>
+                                        </div> 
+
+                                        <div class="sdg-6 sdg-square">
+                                            <img src="img/sdg/sdg_6.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Ensure availability and sustainable management of water and sanitation for all</div>
+                                        </div>
+                                        <div class="sdg-7 sdg-square">
+                                            <img src="img/sdg/sdg_7.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Ensure access to affordable, reliable, sustainable and modern energy for all</div>
+                                        </div> 
+                                         <div class="sdg-8 sdg-square">
+                                            <img src="img/sdg/sdg_8.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</div>
+                                        </div>      
+                                        <div class="sdg-9 sdg-square">
+                                            <img src="img/sdg/sdg_9.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation</div>
+                                        </div>  
+                                         <div class="sdg-10 sdg-square">
+                                            <img src="img/sdg/sdg_10.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Reduce inequality within and among countries</div>
+                                        </div>
+                                        <div class="sdg-11 sdg-square">
+                                            <img src="img/sdg/sdg_11.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Make cities and human settlements inclusive, safe, resilient and sustainable</div>
+                                        </div>
+
+                                        <div class="sdg-12 sdg-square">
+                                            <img src="img/sdg/sdg_12.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Ensure sustainable consumption and production patterns</div>
+                                        </div>
+                                        <div class="sdg-13 sdg-square">
+                                            <img src="img/sdg/sdg_13.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Take urgent action to combat climate change and its impacts*</div>
+                                        </div> 
+                                         <div class="sdg-14 sdg-square">
+                                            <img src="img/sdg/sdg_14.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Conserve and sustainably use the oceans, seas and marine resources for sustainable development</div>
+                                        </div>      
+                                        <div class="sdg-15 sdg-square">
+                                            <img src="img/sdg/sdg_15.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss</div>
+                                        </div>      
+                                        <div class="sdg-16 sdg-square">
+                                            <img src="img/sdg/sdg_16.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</div>
+                                        </div>
+                                        <div class="sdg-17 sdg-square">
+                                            <img src="img/sdg/sdg_17.png" alt="UNLEASH">
+                                            <div class="hidden-text" style="color: #fff;">Strengthen the means of implementation and revitalize the global partnership for sustainable development</div>
+                                        </div>  
+
+                            </div>
+                            </div>
+                            <div class="col-sm-1"></div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Donate Section -->
+    <section id="donate">
+        <div class="container">
+            <div class="row">
+                
+            </div>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <h2 class="section-subheading text-center">Help us and make our work grow bigger!</h2>
+                    <center><p class="large text-muted">Giving is not just about making a donation. It is about making a difference</p></center>
+                    <h2 class="section-heading text-center" style="font-size: 60px; color: #40E0D0">Support our work</h2>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">You can support us and contribute your part in helping us fight this battle against ignorance to make this world a better place to live in.</p>
+                </div>
+            </div>
+              <div class="col-lg-12 text-center">
+                    <div id="success"></div>
+                        <button type="submit" class="btn btn-xl" style="background-color:#40E0D0;border-color:#40E0D0;"><a href="#" style="color:#fff;text-decoration: none;">Read more</a></button>
+             </div>
+        </div>
+    </section>
+
+ <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    
+                </div>
+            </div>
+              <div class="row">
+              <div class="col-md-4">
+                  <h2 class="section-heading" style="color: #40E0D0; font-size: 60px">Connect</h2>
+                  <h2 style="font-size: 45px">with Us</h2>
+              </div>
+                <div class="col-sm-7">
+                    <div class="team-member">
+                        
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/SDGSociety?s=07" target="_blank" style="background-color: #00aced"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/sdgsociety/" target="_blank" style="background-color: #3b5998">
+                            <i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://in.linkedin.com/company/sdgsociety" target="_blank"  style="background-color: #0077b5"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="#"  style="background-color: #cd201f"><i class="fa fa-youtube"></i></a>
+                            </li>
+                            <li><a href="#" style="background-color: #fb3958"><i class="fa fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h4 style="font-size: 25px">Email id : sdgsociety@gmail.com</h4>
+                    <h4 style="font-size: 25px">Contact No. : +91-9650772625 & +91-9599248226</h4>
+                    </div>
+                    <div class="col-sm-1"></div>
+                   
+            </div>
+        </div>
+    </section>
+
+     <!-- Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-subheading text-muted">Support for this project is provided in part by the YES Alumni Grants Program, which is funded by the Bureau of Educational and Cultural Affairs of the United States Department of State (ECA) and administered by the American Councils for International Education: ACTR/ACCELS. The opinions expressed herein are the our own and do not necessarily express the views of either the ECA or American Councils for International Education.</h3>
+                </div>
+            </div><br><br>
+                <div class="row">
+            <div class="col-lg-12">
+                <div class="col-sm-4"><br><br><br>
+                    <h2>A Project<br> supported by:</h2>
+                </div>
+                <div class="col-sm-8">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/yes.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/us.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/afs.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/ac.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+ <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"> <span class="copyright" style="color: #fff; font-size: 15px">&copy; SDG Society 2017</span></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <a href="index.php" style="text-decoration: none;"><span class="copyright" style="color: #fff;font-size: 15px">Home</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="index.php" style="text-decoration: none;"><span class="copyright" style="color: #fff;font-size: 15px">About</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="index.php" style="text-decoration: none;"><span class="copyright" style="color: #fff;font-size: 15px">SDSF</span></a>
+                    
+                </div>
+           
+            </div>
+        </div>
+    </footer> 
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.js?token=ajdsjdkjk"></script>
+
+</body>
+
+</html>
